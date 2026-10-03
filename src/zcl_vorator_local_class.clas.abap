@@ -84,7 +84,5 @@ CLASS zcl_vorator_local_class IMPLEMENTATION.
         out->write( connection->get_output(  ) ).
     ENDLOOP.
 
-* test
-
   ENDMETHOD.
 ENDCLASS.
