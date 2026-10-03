@@ -1,0 +1,11 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "SAP Object Node Type ZVORATORFLIGHT",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "name": "ZVORATORFLIGHT",
+  "sapObjectType": "ZVORATORFLIGHT",
+  "rootNode": true
+}
