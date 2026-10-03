@@ -1,23 +1,23 @@
-CLASS zcl_vorator_hello_world DEFINITION
-  PUBLIC
-  FINAL
-  CREATE PUBLIC .
+class zcl_vorator_hello_world definition
+  public
+  final
+  create public .
 
-  PUBLIC SECTION.
+  public section.
 
-    INTERFACES if_oo_adt_classrun .
-  PROTECTED SECTION.
-  PRIVATE SECTION.
-ENDCLASS.
-
-
-
-CLASS zcl_vorator_hello_world IMPLEMENTATION.
+    interfaces if_oo_adt_classrun .
+  protected section.
+  private section.
+endclass.
 
 
-  METHOD if_oo_adt_classrun~main.
+
+class zcl_vorator_hello_world implementation.
+
+
+  method if_oo_adt_classrun~main.
 
     out->write( 'Hello World' ).
 
-  ENDMETHOD.
-ENDCLASS.
+  endmethod.
+endclass.
